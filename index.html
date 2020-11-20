@@ -26,14 +26,14 @@
 <div class="page-container">
     <div class="inner">
         <div class="title">
-            <h1>HABNet:Machine Learning, Remote
+            <h1>HABNet: Machine Learning, Remote
 Sensing Based Detection of Harmful Algal Blooms</h1>
             <div class="container-sm">
                 <div class="row justify-content-md-center">
-                    <div class="col-sm-auto"><p><a hfref='http://www.bristol.ac.uk/engineering/people/paul-r-hill/index.html'>P.R. Hill</a>P.R. Hill</p><p>University of Bristol</p></div>
-                    <div class="col-sm-auto"><p><a hfref='https://scholar.google.com/citations?user=srDQE6sAAAAJl'>A. Kumar</a></p><p>KUSTAR</p></div>
-                    <div class="col-sm-auto"><p<a hfref='https://www.ku.ac.ae/academics/college-of-engineering/department/department-of-civil-infrastructure-and-environmental-engineering/people/dr-marouane-temimi'>M. Temimi</a></p><p>KUSTAR</p></div>
-		    <div class="col-sm-auto"><p><a hfref='http://www.bristol.ac.uk/engineering/people/david-r-bull/index.html'>D.R. Bull</a></p><p>University of Bristol</p></div>
+                    <div class="col-sm-auto"><p><a href='http://www.bristol.ac.uk/engineering/people/paul-r-hill/index.html'>P.R. Hill</a>P.R. Hill</p><p>University of Bristol</p></div>
+                    <div class="col-sm-auto"><p><a href='https://scholar.google.com/citations?user=srDQE6sAAAAJl'>A. Kumar</a></p><p>KUSTAR</p></div>
+                    <div class="col-sm-auto"><p<a href='https://www.ku.ac.ae/academics/college-of-engineering/department/department-of-civil-infrastructure-and-environmental-engineering/people/dr-marouane-temimi'>M. Temimi</a></p><p>KUSTAR</p></div>
+		    <div class="col-sm-auto"><p><a href='http://www.bristol.ac.uk/engineering/people/david-r-bull/index.html'>D.R. Bull</a></p><p>University of Bristol</p></div>
                 </div>
             </div>
         </div>
@@ -43,7 +43,7 @@ Sensing Based Detection of Harmful Algal Blooms</h1>
             <p>This project is concerned with the application of machine
 learning techniques to develop a state-of-the-art detection and
 prediction system for spatiotemporal events found within remote
-sensing data; specifically, Harmful Algal Bloom events (HABs
+sensing data; specifically, Harmful Algal Bloom events (HABs).
             </p>
         </div>
         <hr/>
@@ -68,40 +68,6 @@ sensing data; specifically, Harmful Algal Bloom events (HABs
             </p>
         </div>
         <hr/>
-        <div class="container-md">
-            <h2>User Study</h2>
-            <div class="outlined">
-                <div class="caption">
-                    <p>
-                        The following shows
-                        normalized scores for the user study, compared to perceptual metrics,
-                        where <strong>lower is better</strong> for all.
-                    </p>
-                    <p>
-                        <strong>HiFiC</strong> is our method.
-                        <a href="http://papers.nips.cc/paper/8275-joint-autoregressive-and-hierarchical-priors-for-learned-image-compression.pdf">
-                            M&amp;S</a> is the deep-learning based <em>Mean &amp; Scale Hyperprior</em>,
-                        from Minnen et al.,
-                        optimized for mean squared error.
-                        <a href="https://en.wikipedia.org/wiki/Better_Portable_Graphics">BPG</a> is a non-learned codec based on H.265 that achieves
-                        very high PSNR.
-                        <strong>No GAN</strong> is our baseline, using the same architecture and distortion
-                        as HiFiC, but no GAN.
-                        Below each method, we show <em>average</em> bits per pixel (bpp) on the
-                        <a target="_blank" href="https://storage.googleapis.com/hific/userstudy/visualize.html?perPage=1">
-                            images from the user study</a>,
-                        and for learned methods we show the loss components.
-                    </p>
-                    <img src="img_other/userstudy.png" class="img-figure rounded mx-auto d-block">
-                    <p>
-                        The study shows that training with a GAN yields reconstructions that outperform BPG at practical
-                        bitrates, for high-resolution images.
-                        Our model at 0.237bpp is preferred to
-                        BPG even if BPG uses 2.1&times; the bitrate, and to
-                        MSE optimized models even if they use 1.7&times; the bitrate.
-                    </p>
-                </div>
-            </div>
             <h2>Code (on Github)</h2>
 	    <p><a href='https://github.com/csprh/extractData'>Matlab Based Code for DataCube Extraction</a> </p>
 	    <p><a href='https://github.com/csprh/modelHAB'>Python code for HAB classification</a> </p>
