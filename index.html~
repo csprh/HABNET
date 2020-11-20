@@ -115,8 +115,14 @@ days in the future.
 }
                 </pre>
             </div>
+	</div>
             <hr/>
-        </div>
+	<div class="container-md">
+	    <h2>Acknowlegement</h2>
+	    <p>We would like to thank the British Council for funding:
+British Council Award ref 279334808. The FWC for the ground
+truth data in Florida and EAD (UAE) for the ground truth data in
+the Arabian Gulf. </p> </p>
     </div>
 </div>
 </body>
