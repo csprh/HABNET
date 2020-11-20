@@ -23,98 +23,129 @@
 </head>
 
 <body id="page-top">
+<div class="page-container">
+    <div class="inner">
+        <div class="title">
+            <h1>High-Fidelity Generative Image Compression</h1>
+            <div class="container-sm">
+                <div class="row justify-content-md-center">
+                    <div class="col-sm-auto"><p>P.R. Hill</p><p>University of Bristol</p></div>
+                    <div class="col-sm-auto"><p>A. Kumar</p><p>KUSTAR</p></div>
+                    <div class="col-sm-auto"><p>M. Temimi</p><p>KUSTAR</p></div>
+                    <div class="col-sm-auto"><p>D.R. Bull</p><p>University of Bristol</p></div>
+                </div>
+            </div>
+        </div>
 
-  <!-- Navigation 
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
-    <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">Start Bootstrap</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#about">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#services">Services</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-  -->
-
-  <header class="bg-primary text-white">
-    <div class="container text-center">
-      <h1>HABNet:Machine Learning, Remote Sensing Based Detection of Harmful Algal Blooms</h1>
-      <!--<p class="lead">This project is concerned with the application of machine
+        <div class="container-md">
+            <h2>About</h2>
+            <p>This project is concerned with the application of machine
 learning techniques to develop a state-of-the-art detection and
 prediction system for spatiotemporal events found within remote
-sensing data; specifically, Harmful Algal Bloom events (HABs)</p>
-    </div>-->
-  </header>
-
-  <section id="about">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 mx-auto">
-          <h2>Introduction</h2>
-          <p class="lead">the application of machine
-learning techniques to develop a state-of-the-art detection and
-prediction system for spatiotemporal events found within remote
-sensing data; specifically, Harmful Algal Bloom events (HABs)</p>
-          <ul>
-            <li>Clickable nav links that smooth scroll to page sections</li>
-          </ul>
+sensing data; specifically, Harmful Algal Bloom events (HABs
+            </p>
         </div>
-      </div>
-    </div>
-  </section>
+        <hr/>
 
-  <section id="services" class="bg-light">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 mx-auto">
-          <h2>Services we offer</h2>
-          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut optio velit inventore, expedita quo laboriosam possimus ea consequatur vitae, doloribus consequuntur ex. Nemo assumenda laborum vel, labore ut velit dignissimos.</p>
+        <div class="alert alert-warning smartphone-alert" role="alert">
+            <p>Best viewed on a big screen.</p>
+            <p>On iPhone, to move the slider while zoomed in, tap and hold until you get haptic feedback!</p>
         </div>
-      </div>
-    </div>
-  </section>
+       
 
-  <section id="contact">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 mx-auto">
-          <h2>Contact us</h2>
-          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero odio fugiat voluptatem dolor, provident officiis, id iusto! Obcaecati incidunt, qui nihil beatae magnam et repudiandae ipsa exercitationem, in, quo totam.</p>
+        <div class="container-md centered-info paperthumbs">
+            <h2>Paper</h2>
+            <div class="container">
+                <div class="row no-gutters">
+                    <div class="col-sm"><a target="_blank" href="https://arxiv.org/abs/2006.09965">
+                        <img src="paper_thumbs/output-0.jpg" class="img-fluid"/></a></div>
+                    <div class="col-sm"><a target="_blank" href="https://arxiv.org/abs/2006.09965">
+                        <img src="paper_thumbs/output-1.jpg" class="img-fluid"/></a></div>
+                    <div class="col-sm"><a target="_blank" href="https://arxiv.org/abs/2006.09965">
+                        <img src="paper_thumbs/output-2.jpg" class="img-fluid"/></a></div>
+                    <div class="col-sm"><a target="_blank" href="https://arxiv.org/abs/2006.09965">
+                        <img src="paper_thumbs/output-3.jpg" class="img-fluid"/></a></div>
+                    <div class="col-sm"><a target="_blank" href="https://arxiv.org/abs/2006.09965">
+                        <img src="paper_thumbs/output-4.jpg" class="img-fluid"/></a></div>
+                    <div class="col-sm"><a target="_blank" href="https://arxiv.org/abs/2006.09965">
+                        <img src="paper_thumbs/output-5.jpg" class="img-fluid"/></a></div>
+                    <div class="col-sm"><a target="_blank" href="https://arxiv.org/abs/2006.09965">
+                        <img src="paper_thumbs/output-6.jpg" class="img-fluid"/></a></div>
+                    <div class="col-sm"><a target="_blank" href="https://arxiv.org/abs/2006.09965">
+                        <img src="paper_thumbs/output-7.jpg" class="img-fluid"/></a></div>
+                    <div class="col-sm"><a target="_blank" href="https://arxiv.org/abs/2006.09965">
+                        <img src="paper_thumbs/output-8.jpg" class="img-fluid"/></a></div>
+                </div>
+            </div>
+            <p>
+                <a href="https://arxiv.org/abs/2006.09965">
+                    PDF including supplementary material available on arXiv</a>
+            </p>
+            <h4>Visual Supplementary</h4>
+            <p>The PDF on arxiv includes the supplementary materials with more information.
+            </p>
+            <p><a target="_blank" href="https://storage.googleapis.com/hific/data/appendixb/appendixb.pdf">
+                Additional visual results are hosted as a PDF here.</a></p>
+            <h4>Evaluation Images</h4>
+            <p>We evaluate our method on CLIC2020, DIV2K, and Kodak.</p>
+            <p><a target="_blank" href="raw/index.html">
+                Reconstructions of HiFiC on all these datasets can be found here.</a></p>
         </div>
-      </div>
+        <hr/>
+        <div class="container-md">
+            <h2>User Study</h2>
+            <div class="outlined">
+                <div class="caption">
+                    <p>
+                        The following shows
+                        normalized scores for the user study, compared to perceptual metrics,
+                        where <strong>lower is better</strong> for all.
+                    </p>
+                    <p>
+                        <strong>HiFiC</strong> is our method.
+                        <a href="http://papers.nips.cc/paper/8275-joint-autoregressive-and-hierarchical-priors-for-learned-image-compression.pdf">
+                            M&amp;S</a> is the deep-learning based <em>Mean &amp; Scale Hyperprior</em>,
+                        from Minnen et al.,
+                        optimized for mean squared error.
+                        <a href="https://en.wikipedia.org/wiki/Better_Portable_Graphics">BPG</a> is a non-learned codec based on H.265 that achieves
+                        very high PSNR.
+                        <strong>No GAN</strong> is our baseline, using the same architecture and distortion
+                        as HiFiC, but no GAN.
+                        Below each method, we show <em>average</em> bits per pixel (bpp) on the
+                        <a target="_blank" href="https://storage.googleapis.com/hific/userstudy/visualize.html?perPage=1">
+                            images from the user study</a>,
+                        and for learned methods we show the loss components.
+                    </p>
+                    <img src="img_other/userstudy.png" class="img-figure rounded mx-auto d-block">
+                    <p>
+                        The study shows that training with a GAN yields reconstructions that outperform BPG at practical
+                        bitrates, for high-resolution images.
+                        Our model at 0.237bpp is preferred to
+                        BPG even if BPG uses 2.1&times; the bitrate, and to
+                        MSE optimized models even if they use 1.7&times; the bitrate.
+                    </p>
+                </div>
+            </div>
+            <h2>Code</h2>
+            <p>Trained model and TensorFlow code <</p>
+            <h2>Citation</h2>
+            <div class="citation">
+                <pre>
+@article{hill2020habnet,
+  title={HABNet: Machine Learning, Remote Sensing-Based Detection of Harmful Algal Blooms},
+  author={Hill, Paul R and Kumar, Anurag and Temimi, Marouane and Bull, David R},
+  journal={IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing},
+  volume={13},
+  pages={3229--3239},
+  year={2020},
+  publisher={IEEE}
+}
+                </pre>
+            </div>
+            <hr/>
+        </div>
     </div>
-  </section>
-
-  <!-- Footer -->
-  <footer class="py-5 bg-dark">
-    <div class="container">
-      <p class="m-0 text-center text-white">Copyright &copy; Your Website 2020</p>
-    </div>
-    <!-- /.container -->
-  </footer>
-
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-  <!-- Plugin JavaScript -->
-  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-
-  <!-- Custom JavaScript for this theme -->
-  <script src="js/scrolling-nav.js"></script>
-
+</div>
 </body>
 
 </html>
